@@ -1,0 +1,166 @@
+.div_1{
+    background-color: azure;
+}
+
+
+.div_2 h1{
+    margin-top: 100px;
+    margin: 50px;
+    margin-bottom: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.div_2 p{
+margin: 40px;
+outline: 1px solid lightgray;
+padding: 32px;
+font-size: 20px;
+font-family:'Times New Roman', Times, serif;
+}
+
+.div_2 {
+    outline: 2px solid gray;
+    background-color: azure;
+    padding: 4px;
+    }
+
+.header_1{
+    font-size: 35px;
+    font-family:cursive;
+    outline: 2px solid gray;     
+    margin-top: 30px;
+   
+    padding: 8px;
+}
+.header_1 h4{
+    font-size: 27px;
+    font-family:cursive;     
+    margin-left: 40px;
+   /* padding: 10px;*/
+    
+}
+.header_1 li{    
+    padding: 0px;
+    font-size: 15px;
+    margin-left: 40px;
+    font-weight: normal;
+    list-style: square;    
+}
+
+.inner_outline{
+    outline: 1px solid lightgray;
+    margin: 40px;  
+}
+.inner_outline p{
+    font-size: 18px;  
+    margin-left: 40px; 
+}
+.inner_outline ul{
+    margin-bottom: 45px;
+}
+.car_outer_div{
+    outline: 2px solid gray;  
+    background-color: azure ;
+    padding: 32px;
+    margin-top: 30px;
+}
+
+.div_3_honda img{
+   height: 200px;
+   width: 300px;
+}
+.div_3_honda{
+    outline: 1px solid lightgray;
+    
+}
+.outer_upper{
+    background-color: azure;
+}
+
+.div_2 img{   
+    width: 250px;
+    height: 200px;
+    margin: 1px 400px;
+}
+
+.div_3 {
+    font-size: 25px;
+    color:chocolate;
+    outline: 1px solid brown;
+    margin-top: 20px; 
+       
+}
+.div_3 li{
+    font-size: 20px;
+    color:chocolate;    
+    margin-left: 30px;
+    padding: 12px; 
+    font-family:cursive; 
+     
+    box-sizing: border-box;   
+}
+.div_3 h4{
+    font-size: 25px;
+    color:chocolate;    
+    margin-left: 30px;
+    font-family:cursive;
+    padding: 12px; 
+    box-sizing: border-box;     
+}
+.div_4_table {
+background-color: white;    
+}
+.div_4_table h4{
+    font-size: 25px;
+    font-family:cursive;
+    font-weight: lighter;
+    margin-top: 70px;
+      
+    text-align: center;
+    box-sizing: border-box;
+}
+.div_table{
+    width: 400px;
+    margin: auto;  
+    padding: 0px;
+    border: 3px solid black;  
+}
+.div_table tr td{
+    padding: 20px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+.div_table tr th{
+    padding: 20px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+.Our_Contact{
+border: 1px solid black;
+background-color:lightcyan;
+padding: 20px;
+margin-top: 25px;
+}
+.div_4_table_outer{
+    outline: 2px solid grey;
+    background-color: azure;
+    padding: 32px;
+    margin-top: 30px;
+    
+    
+}
+.div_4_table{
+    outline: 1px solid lightgrey;
+    margin-left: 40px;
+    background-color: azure;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.last_paragrah{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 5px;
+}
+

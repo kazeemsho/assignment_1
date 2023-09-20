@@ -1,0 +1,118 @@
+* {
+  background-color: gainsboro;
+}
+.division_1 {
+  outline: 1px solid black;
+  background-color: white;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  /*background-image: url(./programming_Images/html_jsimages.jpg)  ;
+  background-size: 50%;
+  background-repeat: no-repeat; */
+}
+/*.division_2 {
+  outline: 1px solid black;
+  background-color: white;
+  margin-top: 40px;
+  margin-bottom: 30px;
+   
+}*/
+
+.division_1 h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 50px auto;
+  border: 5px solid palegreen;
+  border-radius: 30px;
+  /*background-image: url(./programming_Images/html_jsimages.jpg) ;*/
+  /*width: 550px;*/
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  /*outline: 1px solid black;*/
+}
+
+.division_1 h1 {
+  width: 750px;
+}
+.division_1 h2 {
+  width: 950px;
+}
+
+.division_1 h3 {
+  width: 250px;
+}
+.division_1 h4 {
+  width: 900px;
+}
+.division_1 h5 {
+  width: 670px;
+}
+.division_1 h6 {
+  width: 290px;
+}
+
+.division_2 {
+  background-color: aqua;
+  outline: 1px solid;
+  width: 1260px;
+  height: 360px;
+  /*margin: 20px;*/
+  padding: 10px;
+  background-image: url(./Images/programming_images/programming-structure-image_2230269.jpg);
+  background-size: 500px;
+  background-repeat: repeat;
+}
+/*.ordered_1 li {
+  padding: 15px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  border: 2px solid black;
+  margin: 10px;
+  width: 150px;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.division_2 .paragraph {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 30px 10px;
+  width: 450px;
+  padding: 20px;
+}
+.division_2 .paragraph2 {
+  font-size: 20px;
+  font-weight: bold;
+}*/
+
+.division_3 {
+  background-color: white;
+  padding: 20px;
+  border: 2px solid black;
+  font-size: 20px;
+  font-style: oblique;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.division_3 a {
+  background-color: white;
+  color: black;
+  margin-top: ;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+.section2 {
+  background-color: aqua;
+  margin: 5px;
+}
