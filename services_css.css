@@ -37,7 +37,7 @@ margin: 20px;
 margin-right: 100px;
 margin-left: 50px;
 padding: 20px;
-outline: 1px solid black;
+outline: 1px solid lightgray;
 }
 .our_team h4{
 margin-top: 40px;
@@ -50,7 +50,7 @@ font-family:'Times New Roman', Times, serif;
 }
 .last_div{
 
-    outline: 1px solid black;
+    outline: 1px solid lightgray;
     margin-left: 50px;
     margin-right: 100px;
     padding: 5px;
@@ -61,11 +61,13 @@ font-family:'Times New Roman', Times, serif;
     font-family: 'Times New Roman', Times, serif;
     font-weight:lighter;
     font-size: 20px;
+    font-style: normal;
     padding: 10px;
     background-color:whitesmoke ;
 }
 .go-back{
     background-color: whitesmoke;
+    color: black;
 
 }
 .image1{
