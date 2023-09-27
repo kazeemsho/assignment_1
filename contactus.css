@@ -1,25 +1,41 @@
 *{
     box-sizing: border-box;
-    background-color: white;
+    background-color: lightgoldenrodyellow;*/
 }
 
 .header_1{
-    text-align: center;
+    margin-left: 150px;
     margin-top: 70px;
     margin-bottom: 40px;
+    position: sticky;
+    top: 0px;
 }
+/*#office_address{
+    position: sticky;
+    top: 10px;
+}*/
 .image_1 {
-    width: 350px;
+    width: 400px;
     height: 250px;
-    margin-left: 250px;
+    margin-left: 150px;
     margin-right: 20px;
+    /*margin-top: 50px;*/
+    border: 1px solid black;
 }
 
 .image_2{
-    width: 350px;
+    width: 400px;
     height: 250px;
-    margin-left: 40px;
+    margin-left: 0px;
 }
+
+[type="submit"]:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+
 .division_1 p{
     padding: 20px;
     font-size: large;
@@ -27,11 +43,11 @@
     margin-left: 40px;  
 }
 .division_1{
-    background-color: whitesmoke;
+    background-color: lightgoldenrodyellow;
 }
 .span1{
     font-size: 14px;
-    background-color: whitesmoke;
+    background-color: lightgoldenrodyellow;
 }
 .division_1 h4{
     margin-left: 60px;
@@ -45,78 +61,134 @@
 .form_class label{
     font-size: 18px;padding: ;
 }
+
 .last_div h4{
     font-size: 20px;
     font-weight: lighter;
     margin-left: 50px;
-    background-color: whitesmoke;
+    background-color: lightgoldenrodyellow;
 }
 .last_div table{
     padding: 3px;
     margin-left: 50px;
-    background-color: whitesmoke;
+    background-color: lightgoldenrodyellow;
 }
 
 .last_div tr td {
     padding: 5px;
     font-size: 11px;
-    background-color: whitesmoke;
+    background-color: lightgoldenrodyellow;
 }
 .last_div tr th {
     padding: 11px; 
     font-size: 12px;  
-    background-color: whitesmoke;
+    background-color: lightgoldenrodyellow;
 }
 
 .div_2{
-    outline: 1px solid lightgray;
+    outline: 1px solid lightgoldenrodyellow;
     margin-left: 60px;
     margin-right: 80px;    
-    background-color: whitesmoke;
+    background-color: lightgoldenrodyellow;
 }
 .div_2 p{
-    background-color: whitesmoke;
+    background-color: lightgoldenrodyellow;
     padding-top: 50px;
 }
 .div_2 h4{
-    background-color: whitesmoke;
+    background-color: lightgoldenrodyellow;
 }
 .form_class{
-    background-color: whitesmoke;
+    background-color: lightgoldenrodyellow;
 }
 .form_class label{
-    background-color: whitesmoke;
-    font-size: 10px;
+    background-color: lightgoldenrodyellow;
+    font-size: 15px;
     
-} 
+}/* 
 .form_class input{
-    background-color: whitesmoke;
+    background-color: lightgoldenrodyellow;
     font-size: 10px;
-} 
+} */
+input.FName::placeholder{
+    background-color: lightgoldenrodyellow;
+    font-size: 12px;
+    text-align: justify;
+    color: lightgrey;
+}
+input.LName::placeholder{
+    background-color: lightgoldenrodyellow;
+    font-size: 12px;
+    text-align: justify;
+    color: lightgrey;
+    
+}
+input.StateofOrigin::placeholder{
+    background-color: lightgoldenrodyellow;
+    font-size: 12px;
+    text-align: justify;
+    color: lightgrey;
+}
+input.address::placeholder{
+    background-color: lightgoldenrodyellow;
+    font-size: 12px;
+    text-align: justify;
+    color: lightgrey;
+}
+input.phoneNo::placeholder{
+    background-color: lightgoldenrodyellow;
+    font-size: 12px;
+    text-align: justify;
+    color: lightgrey;
+}
+
 .outer_inner{
-    background-color: whitesmoke;
+    background-color: lightgoldenrodyellow;
 }
 .last_div{
-    outline: 1px solid lightgrey;
-    margin-left: 60px;
-    margin-right: 80px;
-    margin-top: 20px;
-    padding: 15px;
-    padding-bottom: 30px;
-    background-color: whitesmoke;
-    margin-bottom: 20px;
+    outline: 1px solid black;
+    width: 650px;
+    height: 250px;
+    position: absolute;
+    left: 200px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    
+
+   
 }
 .last_div{
     margin-left: 60px ;
     margin-bottom: 20px;
+    
 }
 
 table{
-    margin-bottom: 20px;   
+    margin-bottom: 20px;  
+    width: 400px ; 
 }
 .major_div{
-    outline: 2px solid lightgrey;
-    background-color: whitesmoke;
+    outline: 2px solid lightgoldenrodyellow;
+    background-color: lightgoldenrodyellow;
     margin-left: 43px;
     margin-right: 45px;
+}
+#h5_for_side_text{
+    width: 150px;
+    height: 100px;
+    font-weight: lighter;
+    outline: 2px solid black;
+    background-color: whitesmoke;
+    position: fixed;
+    bottom:0px;
+    left: 12px;
+}
+.image_3{
+    width: 250px;
+    height: 150px;
+    border: 3px solid black;
+    position: fixed;
+    right: 20px;
+    z-index: 1;
+    bottom: 10px;
 }
