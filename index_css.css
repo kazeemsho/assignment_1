@@ -6,6 +6,10 @@
 [href]{
   color: black;
 }
+[href="./learn.html"]{
+  color: white;
+  text-decoration: none;
+}
 
 #navigation_bar {
   background-color: wheat;
@@ -55,12 +59,13 @@
   border-radius: 15px;
   border: 2px solid black;
   position: fixed;
-  bottom: 95px;
-  right: 20px;
+  bottom: 5px;
+  right: 10px;
   z-index: 1;
 }
 #image_photo:hover{
   cursor: pointer;
+  transform: rotate(15deg);
 }
 /*.division_2 {
   outline: 1px solid black;
