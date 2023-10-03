@@ -3,6 +3,15 @@
     padding: 0px;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+    color: black;
+    font-style: oblique;
+}
+[id="html/css"]{
+    margin-left: 120px;
+    font-size: 18px;
+}
 #first_paragraph:hover{
     background-color: whitesmoke;
 }
@@ -65,12 +74,12 @@ button:disabled{
 #last_paragraph{
     padding: 45px;    
     background-color: gold ;
-    color: white;   
+    color: black;   
     border-radius: 0px 200px 0px 0px;
     margin-bottom: 0px; 
     margin-top: 20px;   
     font-size: 20px;
-    font-weight: bolder;
+    font-weight: lighter;
     text-align: center;
     
 }
