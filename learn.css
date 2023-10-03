@@ -7,8 +7,13 @@
     display: flex;
     flex-wrap: wrap;
     margin: 22px;
-    line-height: 35px;    
-    /*flex-direction: row; */
+    line-height: 35px; 
+    background-color: lightcyan; 
+    position: sticky;  
+    top: 0px;
+}
+.div_list:hover{
+    background-color: whitesmoke;
 }
 .fa-solid fa-code{
     font-size: 420px;
@@ -19,9 +24,6 @@
     display: inline;
     font-weight: bolder;
     font-size: 25px;
-}
-span.list_1::first-letter{
-   
 }
 .div_list > span{
     padding: 30px;
@@ -38,15 +40,15 @@ span.list_1::first-letter{
     font-weight:bolder;
     width: 120px;
     background-color: whitesmoke;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 5px 5px 5px;
 }
 .list_7 {    
     margin-left: 20px;
     font-weight:bolder;
-    background-color: blue;
+    background-color: whitesmoke;
     width: 150px;
-    color: white;
-    border-radius: 0px 0px 15px 15px;
+    color: black;
+    border-radius: 0px 5px 5px 5px;
 }
 .list_6:hover{
     background-color: wheat;
@@ -143,7 +145,7 @@ span.list_1::first-letter{
     outline: 1px solid black;
     width: 500px;
     margin-left: 80px;
-    height: 550px;
+    height: 600px;
     background-color: lightcyan;
 }
 .explore_inner{
@@ -157,6 +159,7 @@ span.list_1::first-letter{
 }
 .stage_2{
     display: flex;
+    flex-wrap: wrap;
     
 }
 
@@ -224,9 +227,10 @@ input.Fname, input.Lname, input.SofOrigin{
     font-size: 20px;
     font-weight: bold;
     padding: 10px;
-    width: 150px;
+    width: 200px;
     margin-top: 15px;
     color: white;
+    border-radius: 10px;
     background-color: black;
     
 }
