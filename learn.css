@@ -425,5 +425,9 @@ input.SofOrigin {
    }
    .fa-rocketchat:hover{
     cursor: pointer;
+    transform: rotate(30deg);
+   }
+   .star{
+    color: red;
    }
 
