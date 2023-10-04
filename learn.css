@@ -341,16 +341,16 @@ input.SofOrigin {
     margin-top: 20px;   
   }
 .div_spaces_2{   
-    height: 600px;
+    /*height: 600px;
     height: 760px;
-    width: 100%;
+    width: 100%;*/
     outline: 1px solid lightcyan;
     display: flex;
     flex-wrap: wrap;
 }
 .image_data_science{
-    height: 350px;
-    width: 400px;
+    max-height: 500px;
+    max-width: 400px;
 }
 .image_data_science img{
     height: 560px;
@@ -430,6 +430,5 @@ input.SofOrigin {
    .star{
     color: red;
    }
-  
-
+   
 
