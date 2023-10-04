@@ -333,7 +333,9 @@ input.SofOrigin {
     margin-bottom: 20px;
     outline: 1px solid white;
     padding-left:45px;
-    font-family: cursive
+    font-family: cursive;
+    display: flex;
+    flex-wrap: wrap;
   }
 .div_spaces_3 h1 {
     padding-top: 40px;
