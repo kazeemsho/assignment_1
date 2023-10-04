@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    background-color: lightgoldenrodyellow;*/
+    background-color: lightgoldenrodyellow;
 }
 
 .header_1{
@@ -10,10 +10,7 @@
     position: sticky;
     top: 0px;
 }
-/*#office_address{
-    position: sticky;
-    top: 10px;
-}*/
+
 .image_1 {
     width: 400px;
     height: 250px;
@@ -34,8 +31,6 @@
     background-color: black;
     color: white;
 }
-
-
 .division_1 p{
     padding: 20px;
     font-size: large;
@@ -54,8 +49,7 @@
     font-size: 20px;
 }
 .form_class{
-    margin-left: 60px ;
-    
+    margin-left: 60px ;    
 }
 
 .form_class label{
@@ -103,13 +97,8 @@
 }
 .form_class label{
     background-color: lightgoldenrodyellow;
-    font-size: 15px;
-    
-}/* 
-.form_class input{
-    background-color: lightgoldenrodyellow;
-    font-size: 10px;
-} */
+    font-size: 15px;    
+}
 input.FName::placeholder{
     background-color: lightgoldenrodyellow;
     font-size: 12px;
@@ -120,8 +109,7 @@ input.LName::placeholder{
     background-color: lightgoldenrodyellow;
     font-size: 12px;
     text-align: justify;
-    color: lightgrey;
-    
+    color: lightgrey;    
 }
 input.StateofOrigin::placeholder{
     background-color: lightgoldenrodyellow;
@@ -153,18 +141,13 @@ input.phoneNo::placeholder{
     left: 200px;
     margin-top: 50px;
     margin-bottom: 70px;
-    
-
-   
 }
 .last_div{
     margin-left: 60px ;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;   
 }
-
 table{
-    margin-bottom: 20px;  
+    margin-bottom: 20px;
     width: 400px ; 
 }
 .major_div{

@@ -32,7 +32,6 @@
   font-size: 16px;
   
 }
-
 #span_3{
   margin-left: 250px;
   font-size: 16px;
@@ -49,9 +48,6 @@
   margin-bottom: 0px;
   padding-top: 50px;
   padding-bottom: 30px;
-  /*background-image: url(./programming_Images/html_jsimages.jpg)  ;
-  background-size: 50%;
-  background-repeat: no-repeat; */  
 }
 #image_photo{
   width: 100px;
@@ -67,26 +63,13 @@
   cursor: pointer;
   transform: rotate(15deg);
 }
-/*.division_2 {
-  outline: 1px solid black;
-  background-color: white;
-  margin-top: 40px;
-  margin-bottom: 30px;
-   
-}*/
-
-
 .division_1 h1, h2, h3, h4, h5, h6 {
   text-align: center;
   font-family: cursive;
   margin: 0px auto;  
   border-radius: 30px;
-  /*background-image: url(./programming_Images/html_jsimages.jpg) ;*/
-  /*width: 550px;*/
   background-color: whitesmoke;
   padding: 20px;
-  
-  /*outline: 1px solid black;*/
 }
 
 .division_1 h1 {
@@ -116,19 +99,13 @@
 .division_2 {
   background-color: whitesmoke;
   outline: 1px solid wheat;
-  /*width: 1260px;*/
   height: 460px;
-  /*margin: 20px;*/
   padding: 10px;
   position: relative;
-  /*background-image: url(./Images/programming_images/programming-structure-image_2230269.jpg);
-  background-size: 550px;
-  background-repeat: repeat;*/
 }
 #division_4{
   height: 400px ;
-  width: 300px;
- 
+  width: 300px; 
   position: absolute;
   left: 400px;
   bottom: 10px;
@@ -177,9 +154,6 @@
   padding-left: 0px;
   padding-bottom: 40px;
 }
-#image_photo{
-
-}
 .p_ande{
   margin-bottom: 40px;
  
@@ -197,28 +171,6 @@
 #span_apply:hover{
   background-color: lightgrey;
 }
-/*.ordered_1 li {
-  padding: 15px;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
-  border: 2px solid black;
-  margin: 10px;
-  width: 150px;
-  box-sizing: border-box;
-  list-style: none;
-}
-
-.division_2 .paragraph {
-  font-size: 20px;
-  font-weight: bold;
-  margin: 30px 10px;
-  width: 450px;
-  padding: 20px;
-}
-.division_2 .paragraph2 {
-  font-size: 20px;
-  font-weight: bold;
-}*/
 
 .division_3 {
   height: 180px;
@@ -357,8 +309,6 @@
   margin: 0px auto;  
   border-radius: 30px;
   margin-bottom: 0px;
-  /*background-image: url(./programming_Images/html_jsimages.jpg) ;*/
-  /*width: 550px;*/
   background-color: wheat;
   padding: 5px;
 }
@@ -368,8 +318,6 @@
   margin: 0px auto;  
   border-radius: 30px;
   margin-bottom: 0px;
-  /*background-image: url(./programming_Images/html_jsimages.jpg) ;*/
-  /*width: 550px;*/
   background-color: wheat;
   padding: 5px;
   padding-left: 0px;
@@ -380,8 +328,6 @@
   margin: 0px auto;  
   margin-bottom: 0px;
   border-radius: 30px;
-  /*background-image: url(./programming_Images/html_jsimages.jpg) ;*/
-  /*width: 550px;*/
   background-color: wheat;
   padding: 5px;
 }
@@ -391,8 +337,6 @@
   margin: 0px auto; 
   margin-bottom: 0px; 
   border-radius: 30px;
-  /*background-image: url(./programming_Images/html_jsimages.jpg) ;*/
-  /*width: 550px;*/
   background-color: wheat;
   padding: 5px;
 }
