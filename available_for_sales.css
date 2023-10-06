@@ -83,6 +83,7 @@ h1.first_div1{
 .division_car_images_outer{
     display: flex;
     flex-wrap: wrap;
+    background-color: whitesmoke;
 
 }
 .division_car_images1{
