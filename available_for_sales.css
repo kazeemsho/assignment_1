@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
 }
 
 .first_outer_div{  
@@ -15,7 +16,7 @@ h1.first_div1{
     background-color: whitesmoke;
     padding: 20px;
     line-height: 40px;
-    outline: 1px solid black;    
+    /*outline: 1px solid black; */   
 }
 .span_1::first-line{
     font-weight: bolder;
@@ -23,29 +24,38 @@ h1.first_div1{
 }
 .span_1{
     padding: 20px;
+    padding-top: 35px;
     line-height: 40px;
     font-size: 18px;
     width: 500px;
-    height: 550px;
-    margin: 30px;
-    margin-right: 10px;
-    margin-left: 120px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /*margin-right: 10px;*/
+    /*margin-left: 120px;*/
     text-align: justify;  
     background-color: white;
-    outline: 1px solid black;  
+    /*outline: 1px solid black;  */
 }
 .span_2{
     width: 500px;
-    height: 550px;
-    margin: 30px;
-    outline: 1px solid black;
-    background-color: white;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /*outline: 1px solid black;*/
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .p_inner{
     display: flex;
     flex-wrap: wrap;
     background-color: whitesmoke;
-    margin-top: 20px;
+    padding-top: 40px;
+    gap: 40px;
+    justify-content: center;
+   
     
 }
 .img_1{
@@ -57,7 +67,7 @@ h1.first_div1{
     width: 500px;
     height: 260px;    
     margin-left: 0px; 
-    margin-top: 20px;         
+    margin-top: 0px;         
 }
 .dream_car::first-line{
     font-size: 50px;  
@@ -83,32 +93,101 @@ h1.first_div1{
 .division_car_images_outer{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     background-color: whitesmoke;
 
 }
 .division_car_images1{
-    outline: 1px solid black;
+    /*outline: 1px solid black;*/
     background-color: whitesmoke;  
     width: 500px;
-    height: 620px; 
-    margin-bottom: 0px;
-    margin-left: 120px; 
+    height: auto; 
+    margin-bottom:30px;    
     margin-right: 40px; 
 }
 .division_car_images{
-    outline: 1px solid black;
+    /*outline: 1px solid black;*/
     background-color: whitesmoke;  
     width: 500px;
-    height: 620px; 
+    height: auto; 
     margin-top: 0px;  
 }
 .division_car_images1 img{
     width: 500px;
     height: 200px;
-    
+    border-top-right-radius: 80px;    
 }
 .division_car_images img{
     width: 500px;
-    height: 200px;    
+    height: 200px;   
+    border-top-right-radius: 80px;  
+}
+.available_container{
+    /*outline: 1px solid black;*/
+    background-color: whitesmoke;
+    height: auto;
+    margin-top: 0px;
+    flex-basis: 1000px;
+    padding: 40px;
+    display: flex;
+    justify-content:space-evenly;
+   
+}
+.S_N, .City, .Name, .Color, .Amount, .Product, .Type, .Year{
+    display: flex;
+    flex-direction: column;  
+    gap: 25px;  
+}
+.header{
+    font-weight: bold;
+}
+.available_stock_div{
+background-color: whitesmoke;
+margin-top: 0px;
+padding-top: 100px;
+
+}
+.available_stock{
+    width: 330px;
+    margin: 0px auto;   
+    /*outline: 1px solid black;*/
+    padding: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-align: center;    
+}
+.available_stock hr{
+    width: 150px;
+    height: 5px;
+    background-color: red;
+    margin-left: 40px;
+}
+.a_href{
+    color: white;
+    text-decoration: none;
+}
+
+.last_paragrah, .last_paragrah2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.Our_Contact_in_footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    padding-top: 40px;
+    font-size: 20px;
+    height: 400px;
+    align-items:flex-end;
+    background-color: black;
+    color: white;
+}
+.fa-square-envelope, .fa-square-whatsapp, .fa-square-twitter, .fa-mobile{
+    font-size: 15px;
+}
+.fa-square-envelope:hover, .fa-square-whatsapp:hover, .fa-square-twitter:hover, .fa-mobile:hover{
+    color: red;
+    cursor: pointer;
 }
 
