@@ -1,194 +1,222 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-.first_outer_div{  
-    margin-bottom: 1310px;
+.first_outer_div {
+  margin-bottom: 1310px;
 }
-h1.first_div1{
-    margin-top: 10px;      
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
-    text-align: center;
-    background-color: whitesmoke;
-    padding: 20px;
-    line-height: 40px;
-    /*outline: 1px solid black; */   
+h1.first_div1 {
+  margin-top: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  background-color: whitesmoke;
+  padding: 20px;
+  line-height: 40px;
+  /*outline: 1px solid black; */
 }
-.span_1::first-line{
-    font-weight: bolder;
-    font-size: 30px;
+.span_1::first-line {
+  font-weight: bolder;
+  font-size: 30px;
 }
-.span_1{
-    padding: 20px;
-    padding-top: 35px;
-    line-height: 40px;
-    font-size: 18px;
-    width: 500px;
-    height: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    /*margin-right: 10px;*/
-    /*margin-left: 120px;*/
-    text-align: justify;  
-    background-color: white;
-    /*outline: 1px solid black;  */
+.span_1 {
+  padding: 20px;
+  padding-top: 35px;
+  line-height: 40px;
+  font-size: 18px;
+  width: 500px;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /*margin-right: 10px;*/
+  /*margin-left: 120px;*/
+  text-align: justify;
+  background-color: white;
+  /*outline: 1px solid black;  */
 }
-.span_2{
-    width: 500px;
-    height: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    /*outline: 1px solid black;*/
-    background-color: whitesmoke;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.span_2 {
+  max-width: 500px;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /*outline: 1px solid black;*/
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
-.p_inner{
-    display: flex;
+.p_inner {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: whitesmoke;
+  padding-top: 40px;
+  gap: 40px;
+  justify-content: center;
+}
+.img_1 {
+  width: 500px;
+  height: 260px;
+}
+.img_2 {
+  width: 500px;
+  height: 260px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+.dream_car::first-line {
+  font-size: 50px;
+}
+.Specialties {
+  font-weight: bolder;
+  font-size: 23px;
+}
+.Specialties_inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Specialties_inner > span {
+  font-size: 20px;
+  font-weight: lighter;
+  padding: 5px;
+  font-style: italic;
+}
+.list_car {
+  display: flex;
+}
+.division_car_images_outer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: whitesmoke;
+  padding-top: 50px;
+  gap: 40px;
+}
+.division_car_images1 {
+  /*outline: 1px solid black;*/
+  background-color: whitesmoke;
+  max-width: 500px;
+  height: auto;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.division_car_images1 img {
+  width: 500px;
+  height: 200px;
+  border-top-right-radius: 80px;
+}
+
+.division_car_images {
+  /*outline: 1px solid black;*/
+  background-color: whitesmoke;
+  max-width: 500px;
+  height: auto;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.division_car_images img {
+  width: 500px;
+  height: 200px;
+  border-top-right-radius: 80px;
+}
+.available_container {
+  /*outline: 1px solid black;*/
+  background-color: whitesmoke;
+  height: auto;
+  margin-top: 0px;
+  flex-basis: 1000px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.S_N,
+.City,
+.Name,
+.Color,
+.Amount,
+.Product,
+.Type,
+.Year {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.header {
+  font-weight: bold;
+}
+.available_stock_div {
+  background-color: whitesmoke;
+  margin-top: 0px;
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.available_stock {
+  width: 330px;
+  margin: 0px auto;
+  /*outline: 1px solid black;*/
+  padding: 20px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+.available_stock hr {
+  width: 150px;
+  height: 5px;
+  background-color: red;
+  margin-left: 40px;
+}
+.a_href {
+  color: white;
+  text-decoration: none;
+}
+
+.last_paragrah,
+.last_paragrah2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.Our_Contact_in_footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  padding-top: 40px;
+  font-size: 20px;
+  height: auto;
+  align-items: flex-end;
+  background-color: black;
+  color: white;
+}
+.fa-square-envelope,
+.fa-square-whatsapp,
+.fa-square-twitter,
+.fa-mobile {
+  font-size: 15px;
+}
+.fa-square-envelope:hover,
+.fa-square-whatsapp:hover,
+.fa-square-twitter:hover,
+.fa-mobile:hover {
+  color: red;
+  cursor: pointer;
+}
+
+@media (max-width: 550px) {
+  img {
+    max-width: 150px;
+  }
+}
+@media (max-width: 450px) {
+  .Our_Contact_in_footer {
     flex-wrap: wrap;
-    background-color: whitesmoke;
-    padding-top: 40px;
-    gap: 40px;
-    justify-content: center;
-   
-    
-}
-.img_1{
-    width: 500px;
-    height: 260px;    
-     
-}
-.img_2{
-    width: 500px;
-    height: 260px;    
-    margin-left: 0px; 
-    margin-top: 0px;         
-}
-.dream_car::first-line{
-    font-size: 50px;  
-}
-.Specialties{
-    font-weight: bolder;
-    font-size: 23px;
-}
-.Specialties_inner{
-    display: flex; 
+  }
+  .available_container{    
     flex-wrap: wrap;
-    
+  }
 }
-.Specialties_inner > span{ 
-    font-size: 20px;
-    font-weight: lighter;
-    padding: 5px;
-    font-style: italic;
-}
-.list_car{
-    display: flex;
-}
-.division_car_images_outer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: whitesmoke;
-    padding-top: 50px;
-
-}
-.division_car_images1{
-    /*outline: 1px solid black;*/
-    background-color: whitesmoke;  
-    width: 500px;
-    height: auto; 
-    margin-bottom:30px;    
-    margin-right: 40px; 
-}
-.division_car_images{
-    /*outline: 1px solid black;*/
-    background-color: whitesmoke;  
-    width: 500px;
-    height: auto; 
-    margin-top: 0px;  
-}
-.division_car_images1 img{
-    width: 500px;
-    height: 200px;
-    border-top-right-radius: 80px;    
-}
-.division_car_images img{
-    width: 500px;
-    height: 200px;   
-    border-top-right-radius: 80px;  
-}
-.available_container{
-    /*outline: 1px solid black;*/
-    background-color: whitesmoke;
-    height: auto;
-    margin-top: 0px;
-    flex-basis: 1000px;
-    padding: 40px;
-    display: flex;
-    justify-content:space-evenly;
-   
-}
-.S_N, .City, .Name, .Color, .Amount, .Product, .Type, .Year{
-    display: flex;
-    flex-direction: column;  
-    gap: 25px;  
-}
-.header{
-    font-weight: bold;
-}
-.available_stock_div{
-background-color: whitesmoke;
-margin-top: 0px;
-padding-top: 100px;
-
-}
-.available_stock{
-    width: 330px;
-    margin: 0px auto;   
-    /*outline: 1px solid black;*/
-    padding: 20px;
-    padding-bottom: 10px;
-    font-size: 20px;
-    text-align: center;    
-}
-.available_stock hr{
-    width: 150px;
-    height: 5px;
-    background-color: red;
-    margin-left: 40px;
-}
-.a_href{
-    color: white;
-    text-decoration: none;
-}
-
-.last_paragrah, .last_paragrah2{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-.Our_Contact_in_footer{
-    display: flex;
-    justify-content: space-between;
-    padding: 30px;
-    padding-top: 40px;
-    font-size: 20px;
-    height: 400px;
-    align-items:flex-end;
-    background-color: black;
-    color: white;
-}
-.fa-square-envelope, .fa-square-whatsapp, .fa-square-twitter, .fa-mobile{
-    font-size: 15px;
-}
-.fa-square-envelope:hover, .fa-square-whatsapp:hover, .fa-square-twitter:hover, .fa-mobile:hover{
-    color: red;
-    cursor: pointer;
-}
-
